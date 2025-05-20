@@ -1,0 +1,205 @@
+.top-cart {
+    height: 400px;
+    background-image: url(img/topcart.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading__cart {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 127px;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+
+    &__name-box {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 14px;
+    }
+
+    &__item {
+        border-top: 0.5px solid rgb(202, 205, 216);
+        padding-top: 25px;
+        padding-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__left {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__info {
+        width: 276px;
+    }
+
+    &__content {
+        grid-column: span 8;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__link-box {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__link-text {
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 210%;
+        letter-spacing: 0px;
+        text-align: center;
+        text-decoration-line: underline;
+    }
+
+    &__link_foot {
+        display: flex;
+        gap: 7px;
+        padding-top: 20px;
+    }
+
+    &__link_button {
+        box-sizing: border-box;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 50px;
+        width: 200px;
+        height: 37px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: center;
+        background-color: #ffffff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    &__link_button:hover {
+        background-color: black;
+        color: #ffffff;
+    }
+
+    &__link_input {
+        border: none;
+        border-radius: 6px;
+        background: rgb(247, 246, 246);
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 210%;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 71px;
+        height: 51px;
+    }
+
+    &__form {
+        border-radius: 20px;
+        background: rgb(247, 246, 246);
+        height: 556px;
+        grid-column: span 4;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    &__form-title {
+        margin-top: 42px;
+        margin-bottom: 35px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+
+    &__form-link {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        gap: 42px;
+    }
+
+    &__form_list {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgb(202, 205, 216);
+        width: 288px;
+    }
+
+    &__form_text {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+    }
+
+    &__form_price {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+
+    &__link_btn {
+        border-radius: 20px;
+        width: 290px;
+        height: 41px;
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 4);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        transition: all 0.5s;
+    }
+
+    &__link_btn:hover {
+        background-color: #000000;
+        color: #f7f6f6;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    &__price {
+        color: rgb(5, 5, 5);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    &__form-box {
+        padding-top: 64px;
+        padding-bottom: 18px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    
+}
